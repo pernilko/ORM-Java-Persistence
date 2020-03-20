@@ -10,7 +10,7 @@ public class KontoDAO {
     }
 
     private void lukkEMF(EntityManager em){
-        if(em.isOpen()){
+        if(em.isOpen() && em != null){
             em.close();
         }
     }
@@ -43,9 +43,11 @@ public class KontoDAO {
     public void endreEier(String nyEier, Konto k){
         EntityManager em = getEmf();
         try {
-            em.getTransaction().begin(); //Starte transaksjon
-            k.setEier(nyEier); //Sette ny eier
-            em.getTransaction().commit(); //commit endring
+            em.getTransaction().begin();
+            Konto nyKonto = k;
+            nyKonto.setEier(nyEier);
+            em.merge(nyKonto);
+            em.getTransaction().commit();
         }finally {
             lukkEMF(em);
         }

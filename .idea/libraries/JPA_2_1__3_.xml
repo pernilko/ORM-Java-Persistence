@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JPA 2.1 (3)">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/eclipselink-2.7.6.v20200131-b7c997804f/eclipselink/jlib/eclipselink.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

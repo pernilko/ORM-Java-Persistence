@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b144a98f-8789-43b1-94bd-377f10a9bee5" name="Default Changelist" comment="" />
+    <list default="true" id="b144a98f-8789-43b1-94bd-377f10a9bee5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_1__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_1__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1247f6b-deaf-44e8-a33d-a1b2c0d06add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1247f6b-deaf-44e8-a33d-a1b2c0d06add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/Konto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/Konto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/KontoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/KontoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/KontoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/KontoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KontoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KontoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Øving 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Øving 6.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +36,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @mysql-ait.stud.idi.ntnu.no" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -31,6 +54,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1ZMLBpyASDF9Plj46k2x4NqSE3L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,16 +68,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="MySQL" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\perni\OneDrive\Documents\DataIng\2. Klasse\Vår\Nettverksprog\Øving 6\lib" />
+      <recent name="C:\Users\perni\OneDrive\Documents\DataIng\2. Klasse\Vår\Nettverksprog\Øving 6\src\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\perni\OneDrive\Documents\DataIng\2. Klasse\Vår\Nettverksprog\Øving 6\src\lib" />
+      <recent name="C:\Users\perni\OneDrive\Documents\DataIng\2. Klasse\Vår\Nettverksprog\Øving 6\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.KontoTest">
     <configuration name="KontoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KontoTest" />
       <module name="Øving 6" />
@@ -57,9 +105,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Resources_mysql-connector-java-8.0.15.jar" type="JarApplication" temporary="true">
+      <extension name="recording" autostart="false" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/Resources_mysql-connector-java-8.0.15.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="Øving 6" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eclipselink.jar (1)" type="JarApplication" temporary="true">
+      <extension name="recording" autostart="false" />
+      <option name="JAR_PATH" value="$USER_HOME$/Downloads/eclipselink-2.7.6.v20200131-b7c997804f/eclipselink/jlib/eclipselink.jar!/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql-connector-java-8.0.13.jar" type="JarApplication" temporary="true">
+      <extension name="recording" autostart="false" />
+      <option name="JAR_PATH" value="C:/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql-connector-java-8.0.19.jar" type="JarApplication" temporary="true">
+      <extension name="recording" autostart="false" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.KontoTest" />
+        <item itemvalue="JAR Application.eclipselink.jar (1)" />
+        <item itemvalue="JAR Application.mysql-connector-java-8.0.13.jar" />
+        <item itemvalue="JAR Application.mysql-connector-java-8.0.19.jar" />
+        <item itemvalue="JAR Application.Resources_mysql-connector-java-8.0.15.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +151,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySQL - @mysql-ait.stud.idi.ntnu.no" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@9b8a5a8" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@361206b1" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -96,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584643883438</updated>
-      <workItem from="1584643886891" duration="6672000" />
+      <workItem from="1584643886891" duration="10158000" />
+      <workItem from="1584661387181" duration="6691000" />
     </task>
     <servers />
   </component>
@@ -104,37 +179,77 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="80" key="#Assign_Data_Sources" timestamp="1584656972114">
+    <state x="0" y="80" key="#Assign_Data_Sources" timestamp="1584721665250">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="80" key="#Assign_Data_Sources/0.0.1536.834@0.0.1536.834" timestamp="1584656972114" />
-    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584644890153">
+    <state x="0" y="80" key="#Assign_Data_Sources/0.0.1536.834@0.0.1536.834" timestamp="1584721665250" />
+    <state x="361" y="77" key="#Plugins" timestamp="1584717701810">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1584644890153" />
+    <state x="361" y="77" key="#Plugins/0.0.1536.834@0.0.1536.834" timestamp="1584717701810" />
+    <state x="496" y="127" key="#Resources_mysql-connector-java-8.0.15.jar" timestamp="1584718348348">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="496" y="127" key="#Resources_mysql-connector-java-8.0.15.jar/0.0.1536.834@0.0.1536.834" timestamp="1584718348348" />
+    <state x="155" y="80" key="#SQL_Dialects" timestamp="1584659739971">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="155" y="80" key="#SQL_Dialects/0.0.1536.834@0.0.1536.834" timestamp="1584659739971" />
+    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584721594246">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1584721594246" />
     <state x="155" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584656544591">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="155" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1584656544591" />
-    <state x="165" y="163" key="FileChooserDialogImpl" timestamp="1584657202272">
+    <state x="165" y="163" key="FileChooserDialogImpl" timestamp="1584718480433">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="165" y="163" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584657202272" />
-    <state width="723" height="213" key="GridCell.Tab.0.bottom" timestamp="1584657297219">
+    <state x="165" y="163" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584718480433" />
+    <state width="1425" height="205" key="GridCell.Tab.0.bottom" timestamp="1584722965664">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584657297219" />
-    <state width="723" height="213" key="GridCell.Tab.0.center" timestamp="1584657297219">
+    <state width="1425" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584722965664" />
+    <state width="1425" height="205" key="GridCell.Tab.0.center" timestamp="1584722965664">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584657297219" />
-    <state width="723" height="213" key="GridCell.Tab.0.left" timestamp="1584657297219">
+    <state width="1425" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584722965664" />
+    <state width="1425" height="205" key="GridCell.Tab.0.left" timestamp="1584722965664">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584657297219" />
-    <state width="723" height="213" key="GridCell.Tab.0.right" timestamp="1584657297219">
+    <state width="1425" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584722965664" />
+    <state width="1425" height="205" key="GridCell.Tab.0.right" timestamp="1584722965664">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="723" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584657297219" />
+    <state width="1425" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584722965664" />
+    <state x="349" y="153" key="IDE.errors.dialog" timestamp="1584662220304">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="153" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1584662220304" />
+    <state x="609" y="235" key="NewModule_or_Project.wizard" timestamp="1584718511339">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="609" y="235" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1584718511339" />
+    <state x="231" y="0" key="SettingsEditor" timestamp="1584719295620">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="231" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1584719295620" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1584661394174">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1584661394174" />
+    <state x="526" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584718145926">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="526" y="312" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1584718145926" />
+    <state x="237" y="39" key="new project wizard" timestamp="1584718096045">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="237" y="39" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1584718096045" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1584717681790">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1584717681790" />
   </component>
 </project>

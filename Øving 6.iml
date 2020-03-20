@@ -4,10 +4,21 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="EclipseLink" />
         <datasource-mapping>
           <factory-entry name="Entities" value="d1247f6b-deaf-44e8-a33d-a1b2c0d06add" />
+          <factory-entry name="konto" value="d1247f6b-deaf-44e8-a33d-a1b2c0d06add" />
+          <factory-entry name="manager" value="d1247f6b-deaf-44e8-a33d-a1b2c0d06add" />
         </datasource-mapping>
         <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -19,5 +30,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="JPA 2.1 (2)" level="project" />
+    <orderEntry type="library" name="JPA 2.1 (3)" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.13" level="application" />
   </component>
 </module>

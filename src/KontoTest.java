@@ -4,14 +4,16 @@ import java.util.ArrayList;
 
 public class KontoTest {
 
-    public static void main(String[]args){
+    public static void main(String[]args) throws Exception{
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("emf");
-        KontoDAO dao = new KontoDAO(emf);
+        EntityManagerFactory emf = null;
+        KontoDAO dao = null;
+        System.out.println("Starter...");
 
         //Oppgave 2
-
         try {
+            emf = Persistence.createEntityManagerFactory("manager");
+            dao = new KontoDAO(emf);
             //Oppretter og legger inn to kontoer i db
             Konto k1 = new Konto("123456", 3336.9, "Pernille");
             Konto k2 = new Konto("789012", 9999.0, "Runa");
@@ -27,7 +29,7 @@ public class KontoTest {
             //Endrer eier på en konto
             dao.endreEier("Petter", k1);
         }finally {
-            emf.close();
+            //emf.close();
         }
     }
 }
