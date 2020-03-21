@@ -81,13 +81,19 @@ public class KontoDAO {
 
     public void overforing(double belop, String fra, String til){
         EntityManager em = getEmf();
+        boolean t = false;
+
+        while (!t)
         try {
-            Konto fraKonto = em.find(Konto.class,fra);
-            Konto tilKonto = em.find(Konto.class,til);
+            Konto fraKonto = em.find(Konto.class, fra);
+            Konto tilKonto = em.find(Konto.class, til);
 
             em.getTransaction().begin();
-            trekkPerngerFraKonto(belop,fraKonto);
-            settInnPengerPåKonto(belop,tilKonto);
+            trekkPerngerFraKonto(belop, fraKonto);
+            settInnPengerPåKonto(belop, tilKonto);
+            t = true;
+        }catch (OptimisticLockException e){
+            e.printStackTrace();
         }finally {
             lukkEMF(em);
         }
