@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b144a98f-8789-43b1-94bd-377f10a9bee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_1__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_1__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1247f6b-deaf-44e8-a33d-a1b2c0d06add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1247f6b-deaf-44e8-a33d-a1b2c0d06add.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/Konto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/Konto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/KontoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/KontoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Øving 6/KontoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Øving 6/KontoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Konto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KontoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KontoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KontoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Øving 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Øving 6.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584643883438</updated>
       <workItem from="1584643886891" duration="10158000" />
-      <workItem from="1584661387181" duration="6691000" />
+      <workItem from="1584661387181" duration="7742000" />
     </task>
     <servers />
   </component>

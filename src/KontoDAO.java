@@ -53,5 +53,20 @@ public class KontoDAO {
         }
     }
 
+    public void overforing(double belop, String fra, String til){
+        EntityManager em = getEmf();
+        try {
+            Konto fraKonto = em.find(Konto.class,fra);
+            Konto tilKonto = em.find(Konto.class,til);
+
+            em.getTransaction().begin();
+            fraKonto.trekkBelop(belop);
+
+
+        }finally {
+            lukkEMF(em);
+        }
+    }
+
 
 }
