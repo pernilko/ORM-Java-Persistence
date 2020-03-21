@@ -28,6 +28,8 @@ public class KontoTest {
 
             //Endrer eier på en konto
             dao.endreEier("Petter", k1);
+            dao.overforing(1000,"789012","123456");
+            dao.settInnPengerPåKonto(1000,k2);
         }finally {
             //emf.close();
         }

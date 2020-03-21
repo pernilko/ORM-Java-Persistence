@@ -53,6 +53,32 @@ public class KontoDAO {
         }
     }
 
+    private void trekkPerngerFraKonto(double belop, Konto k){
+        EntityManager em = getEmf();
+        try {
+            em.getTransaction().begin();
+            Konto nyKonto = k;
+            nyKonto.setSaldo(nyKonto.getSaldo()-belop);
+            em.merge(nyKonto);
+            em.getTransaction().commit();
+        }finally {
+            lukkEMF(em);
+        }
+    }
+
+    public void settInnPengerPåKonto(double belop, Konto k){
+        EntityManager em = getEmf();
+        try {
+            em.getTransaction().begin();
+            Konto nyKonto = k;
+            nyKonto.setSaldo(nyKonto.getSaldo()+belop);
+            em.merge(nyKonto);
+            em.getTransaction().commit();
+        }finally {
+            lukkEMF(em);
+        }
+    }
+
     public void overforing(double belop, String fra, String til){
         EntityManager em = getEmf();
         try {
@@ -60,9 +86,8 @@ public class KontoDAO {
             Konto tilKonto = em.find(Konto.class,til);
 
             em.getTransaction().begin();
-            fraKonto.trekkBelop(belop);
-
-
+            trekkPerngerFraKonto(belop,fraKonto);
+            settInnPengerPåKonto(belop,tilKonto);
         }finally {
             lukkEMF(em);
         }
